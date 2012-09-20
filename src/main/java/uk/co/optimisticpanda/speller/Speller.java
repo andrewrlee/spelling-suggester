@@ -108,7 +108,6 @@ public class Speller {
 			// Assume the word is correct
 			edits = Collections.singleton(word);
 		}
-
 		if (isEmpty(edits)) {
 			edits = known(editsWithErrorDistanceOf1(word));
 		}
